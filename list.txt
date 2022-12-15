@@ -1,2 +1,5 @@
 #Cara melihat list user login
 -> Command "last"
+
+#Cara tambah user di ssh
+-> Command "adduser (nama user)"
