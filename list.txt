@@ -3,3 +3,9 @@
 
 #Cara tambah user di ssh
 -> Command "adduser (nama user)"
+
+#Cara Solving Unblokir/Blokir tidak jalan
+-> Running query :
+
+select id_loket, count(*) jml from blokir_loket where selesai_blokir is null group by id_loket
+having jml>1
