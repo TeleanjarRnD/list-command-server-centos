@@ -9,3 +9,12 @@
 
 select id_loket, count(*) jml from blokir_loket where selesai_blokir is null group by id_loket
 having jml>1
+
+-> Delete data duplicate
+-> Running Crond do_blokir
+
+# Tutorial Menyalakan Tomcat
+
+-> •	cd /opt/node_7910_new/bin
+-> •	./startup.sh
+-> •	tail -f /opt/node_7910_new/logs/ppob-loket-production.log 
